@@ -1,11 +1,15 @@
-package com.jiacheng.wiki;
+package com.jiacheng.wiki.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+
+// @ComponentScan({"com.jiawa", "com.test"}) 扫描多个包的写法
+@ComponentScan("com.jiacheng")
 @SpringBootApplication
 public class WikiApplication {
 
