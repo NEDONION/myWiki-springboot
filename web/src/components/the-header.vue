@@ -1,10 +1,10 @@
 <template>
-    <a-layout-header class="header">
+<a-layout-header class="header">
       <div class="logo" />
       <a-menu
-        v-model:selectedKeys="selectedKeys1"
         theme="dark"
         mode="horizontal"
+        v-model:selectedKeys="selectedKeys1"
         :style="{ lineHeight: '64px' }"
       >
         <a-menu-item key="1">nav 1</a-menu-item>

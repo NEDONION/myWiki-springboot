@@ -1,10 +1,11 @@
 <template>
 <a-layout>
-    <a-layout-sider width="200" style="background: #fff">
+    <a-layout>
+      <a-layout-sider width="200" style="background: #fff">
         <a-menu
+          mode="inline"
           v-model:selectedKeys="selectedKeys2"
           v-model:openKeys="openKeys"
-          mode="inline"
           :style="{ height: '100%', borderRight: 0 }"
         >
           <a-sub-menu key="sub1">
@@ -52,13 +53,40 @@
           Content
         </a-layout-content>
       </a-layout>
-</a-layout>
+    </a-layout>
+  </a-layout>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import axios from "axios";
 
 export default defineComponent({
   name: 'Home',
+  setup() {
+    console.log("setup")
+    axios.get("http://localhost:8880/ebook/list").then((response) => {
+      console.log(response)
+    })
+  }
 });
 </script>
+
+<style>
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+</style>
