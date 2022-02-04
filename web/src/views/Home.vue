@@ -96,15 +96,14 @@ for (let i = 0; i < 23; i++) {
 export default defineComponent({
   name: 'Home',
   setup() {
-    console.log("setup");
+    console.log("111");
     // 响应式的数据
     const ebooks = ref();
-    const ApiUrl = process.env.VUE_APP_SERVER 
 
 
     onMounted(() => {
       console.log("onMounted")
-      axios.get(ApiUrl + "/ebook/list").then((response) => {
+      axios.get("/ebook/list").then((response) => {
         const data = response.data;
         ebooks.value = data.content;
       console.log(response);

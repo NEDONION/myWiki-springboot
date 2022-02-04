@@ -1,0 +1,70 @@
+2022-02-04 14:44:55.031 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8880 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8880 or configure this application to listen on another port.
+
+2022-02-04 14:46:51.408 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8880 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8880 or configure this application to listen on another port.
+
+2022-02-04 14:47:12.156 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8881 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8881 or configure this application to listen on another port.
+
+2022-02-04 14:55:30.188 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8880 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8880 or configure this application to listen on another port.
+
+2022-02-04 14:55:49.067 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
