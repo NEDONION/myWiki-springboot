@@ -1,5 +1,4 @@
 <template>
-<a-layout>
     <a-layout>
       <a-layout-sider width="200" style="background: #fff">
         <a-menu
@@ -51,25 +50,40 @@
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
         >
           Content
+          <pre>
+          {{ebooks}}
+          </pre>
         </a-layout-content>
       </a-layout>
     </a-layout>
-  </a-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, onMounted, ref } from 'vue';
 import axios from "axios";
 
 export default defineComponent({
   name: 'Home',
   setup() {
-    console.log("setup")
-    axios.get("http://localhost:8880/ebook/list").then((response) => {
-      console.log(response)
-    })
-  }
-});
+    console.log("setup");
+    // 响应式的数据
+    const ebooks = ref();
+
+
+    onMounted(() => {
+      console.log("onMounted")
+      axios.get("http://localhost:8880/ebook/list").then((response) => {
+        const data = response.data;
+        ebooks.value = data.content;
+      console.log(response);
+    });
+  });
+
+    return {
+      ebooks
+    }
+
+}});
 </script>
 
 <style>
