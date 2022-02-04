@@ -94,7 +94,7 @@ for (let i = 0; i < 23; i++) {
 
 
 export default defineComponent({
-  name: 'Home',
+  name: 'home',
   setup() {
     console.log("111");
     // 响应式的数据
