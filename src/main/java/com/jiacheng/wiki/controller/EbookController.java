@@ -25,7 +25,7 @@ public class EbookController {
         resp.setContent(list);
         return resp;
     }
-
+    // post请求需要加注解
     @PostMapping("/save")
     public CommonResp save(@Valid @RequestBody EbookSaveReq req) {
         CommonResp resp = new CommonResp<>();
