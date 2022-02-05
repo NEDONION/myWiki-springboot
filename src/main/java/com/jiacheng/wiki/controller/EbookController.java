@@ -33,6 +33,7 @@ public class EbookController {
         return resp;
     }
 
+    // 按Id删除，id是主键
     @DeleteMapping("/delete/{id}")
     public CommonResp delete(@PathVariable Long id) {
         CommonResp resp = new CommonResp<>();

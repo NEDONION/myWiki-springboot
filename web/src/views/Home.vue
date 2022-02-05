@@ -95,19 +95,23 @@ for (let i = 0; i < 23; i++) {
 
 export default defineComponent({
   name: 'home',
-  setup() {
-    console.log("111");
+  setup() { 
+    
     // 响应式的数据
     const ebooks = ref();
 
 
     onMounted(() => {
-      console.log("onMounted")
-      axios.get("/ebook/list").then((response) => {
+      axios.get("/ebook/list", {
+        params: {
+          page: 1,
+          size: 1000,
+        }
+      }).then((response) => {
         const data = response.data;
-        ebooks.value = data.content;
-      console.log(response);
-    });
+        ebooks.value = data.content.list;
+        // ebooks1.books = data.content;
+      });
   });
 
   // // 分页组件
