@@ -6,13 +6,13 @@
       <p>
         <a-form layout="inline" :model="param">
           <a-form-item>
-            <a-button type="primary" @click="handleQuery()">
-              查询
+            <a-button type="primary" shape="round" @click="handleQuery()">
+              Search
             </a-button>
           </a-form-item>
           <a-form-item>
-            <a-button type="primary" @click="add()">
-              新增
+            <a-button type="primary" shape="round" @click="add()">
+              Add
             </a-button>
           </a-form-item>
         </a-form>
@@ -20,7 +20,7 @@
       <p>
         <a-alert
                 class="tip"
-                message="小提示：这里的分类会显示到首页的侧边菜单"
+                message="tips: The categories here will be displayed on the sider of Homepage."
                 type="info"
                 closable
         />
@@ -39,17 +39,17 @@
         </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
-            <a-button type="primary" @click="edit(record)">
-              编辑
+            <a-button type="primary" shape="round" @click="edit(record)">
+              Edit
             </a-button>
             <a-popconfirm
-              title="删除后不可恢复，确认删除?"
-              ok-text="是"
-              cancel-text="否"
+              title="Are you sure you want to delete this issue?"
+              ok-text="Delete issue"
+              cancel-text="Cancel"
               @confirm="handleDelete(record.id)"
             >
-              <a-button type="danger">
-                删除
+              <a-button type="danger" shape="round">
+                Delete
               </a-button>
             </a-popconfirm>
           </a-space>
@@ -74,7 +74,7 @@
           ref="select"
         >
           <a-select-option :value="0">
-            无
+            None
           </a-select-option>
           <a-select-option v-for="c in level1" :key="c.id" :value="c.id" :disabled="category.id === c.id">
             {{c.name}}
@@ -104,7 +104,7 @@
 
       const columns = [
         {
-          title: '名称',
+          title: 'Name',
           dataIndex: 'name'
         },
         // {
@@ -113,7 +113,7 @@
         //   dataIndex: 'parent'
         // },
         {
-          title: '顺序',
+          title: 'Sort',
           dataIndex: 'sort'
         },
         {
@@ -149,11 +149,11 @@
           const data = response.data;
           if (data.success) {
             categorys.value = data.content;
-            console.log("原始数组：", categorys.value);
+            console.log("原始数组: ", categorys.value);
 
             level1.value = [];
             level1.value = Tool.array2Tree(categorys.value, 0);
-            console.log("树形结构：", level1);
+            console.log("树形结构: ", level1);
           } else {
             message.error(data.message);
           }

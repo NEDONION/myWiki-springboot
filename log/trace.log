@@ -495,3 +495,330 @@ Caused by: java.io.IOException: Broken pipe
 2022-02-05 03:12:53.921 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
 2022-02-05 03:12:53.942 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2022-02-05 03:12:53.966 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-02-05 19:54:23.322 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-02-05 19:54:23.331 INFO  com.jiacheng.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_322 on hujiachengdeMacBook-Pro.local with PID 47511 (/Users/nedonion/Desktop/BackEnd/wiki/target/classes started by nedonion in /Users/nedonion/Desktop/BackEnd/wiki)
+2022-02-05 19:54:23.332 INFO  com.jiacheng.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-05 19:54:23.380 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 19:54:23.381 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 19:54:24.463 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-05 19:54:24.472 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-05 19:54:24.472 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-05 19:54:24.473 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-05 19:54:24.530 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-05 19:54:24.530 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1149 ms
+2022-02-05 19:54:25.023 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-05 19:54:25.221 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-05 19:54:25.237 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-05 19:54:25.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-05 19:54:25.267 INFO  com.jiacheng.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 2.251 seconds (JVM running for 3.046)
+2022-02-05 19:54:25.269 INFO  com.jiacheng.wiki.config.WikiApplication          :23   [32m                  [0;39m 启动成功！！
+2022-02-05 19:54:25.270 INFO  com.jiacheng.wiki.config.WikiApplication          :24   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-02-05 19:54:39.960 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 19:54:39.961 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-05 19:54:39.970 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2022-02-05 19:54:39.982 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:54:39.983 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:54:39.983 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:54:40.162 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-05 19:54:40.464 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:54:40.464 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 19:54:40.465 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:54:42.446 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-05 19:54:42.767 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：2302 ms -------------
+2022-02-05 19:54:42.778 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:54:42.779 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:54:42.779 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:54:43.129 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:54:43.130 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:54:43.143 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：3160 ms -------------
+2022-02-05 19:54:43.530 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:54:43.531 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:54:43.534 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：755 ms -------------
+2022-02-05 19:54:50.157 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:54:50.157 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 19:54:50.158 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:54:50.565 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：407 ms -------------
+2022-02-05 19:54:50.575 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:54:50.575 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:54:50.575 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:54:50.990 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:54:50.990 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:54:50.993 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：418 ms -------------
+2022-02-05 19:55:11.711 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:11.712 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/save OPTIONS
+2022-02-05 19:55:11.712 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:11.719 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-02-05 19:55:11.722 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:11.722 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/save POST
+2022-02-05 19:55:11.723 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:12.375 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：652 ms -------------
+2022-02-05 19:55:12.405 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:12.405 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:55:12.406 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:12.810 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:55:12.810 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:55:12.817 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：411 ms -------------
+2022-02-05 19:55:18.250 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:18.250 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 19:55:18.250 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:18.652 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 19:55:18.661 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:18.661 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:55:18.661 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:19.063 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:55:19.063 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:55:19.067 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：406 ms -------------
+2022-02-05 19:55:24.140 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:24.140 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:55:24.141 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:24.755 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：1
+2022-02-05 19:55:24.756 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:55:24.758 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：617 ms -------------
+2022-02-05 19:55:28.314 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:28.315 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:55:28.315 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:28.917 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：1
+2022-02-05 19:55:28.918 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:55:28.920 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：605 ms -------------
+2022-02-05 19:55:32.364 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:32.365 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 19:55:32.365 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:32.769 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：404 ms -------------
+2022-02-05 19:55:32.786 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:55:32.786 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:55:32.787 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:55:33.192 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:55:33.192 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:55:33.194 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：407 ms -------------
+2022-02-05 19:59:48.114 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:59:48.118 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 19:59:48.119 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:59:48.549 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：429 ms -------------
+2022-02-05 19:59:48.562 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 19:59:48.563 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 19:59:48.563 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 19:59:48.981 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 19:59:48.982 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 19:59:48.987 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：423 ms -------------
+2022-02-05 20:00:18.345 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:00:18.346 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:00:18.347 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:00:18.794 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：447 ms -------------
+2022-02-05 20:00:18.817 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:00:18.819 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:00:18.819 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:00:19.248 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:00:19.249 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:00:19.269 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：449 ms -------------
+2022-02-05 20:00:26.779 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:00:26.784 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:00:26.785 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:00:27.222 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：436 ms -------------
+2022-02-05 20:00:27.238 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:00:27.238 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:00:27.239 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:00:27.650 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:00:27.651 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:00:27.655 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：416 ms -------------
+2022-02-05 20:00:32.950 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:00:32.951 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:00:32.951 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:00:33.360 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：408 ms -------------
+2022-02-05 20:01:28.728 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:01:28.730 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:01:28.731 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:01:29.341 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:01:29.343 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:01:29.347 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：613 ms -------------
+2022-02-05 20:03:45.326 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:03:45.330 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:03:45.330 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:03:45.764 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：433 ms -------------
+2022-02-05 20:03:46.661 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:03:46.661 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:03:46.661 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:03:47.077 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：415 ms -------------
+2022-02-05 20:03:47.091 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:03:47.093 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:03:47.093 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:03:47.503 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:03:47.504 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:03:47.508 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：415 ms -------------
+2022-02-05 20:06:27.267 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:27.274 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:27.274 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:27.708 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：433 ms -------------
+2022-02-05 20:06:30.935 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:30.935 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:30.936 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:31.350 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：414 ms -------------
+2022-02-05 20:06:31.436 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:31.437 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:06:31.437 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:31.447 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:31.448 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:06:31.448 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:31.835 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:31.835 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:31.835 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:31.849 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:06:31.849 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:06:31.851 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：414 ms -------------
+2022-02-05 20:06:32.040 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:06:32.041 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:06:32.043 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：595 ms -------------
+2022-02-05 20:06:32.443 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：608 ms -------------
+2022-02-05 20:06:32.447 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:32.447 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:32.448 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:32.453 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:32.454 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:06:32.456 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:32.728 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：280 ms -------------
+2022-02-05 20:06:32.948 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:32.949 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:32.950 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:33.068 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:06:33.069 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:06:33.074 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：618 ms -------------
+2022-02-05 20:06:33.344 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：393 ms -------------
+2022-02-05 20:06:56.900 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:56.900 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:06:56.901 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:57.318 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：417 ms -------------
+2022-02-05 20:06:57.334 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:06:57.334 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:06:57.334 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:06:57.760 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:06:57.761 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:06:57.764 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：429 ms -------------
+2022-02-05 20:11:53.471 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:11:53.476 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:11:53.477 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:11:53.904 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：426 ms -------------
+2022-02-05 20:11:53.921 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:11:53.922 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:11:53.922 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:11:54.538 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:11:54.540 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:11:54.543 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：620 ms -------------
+2022-02-05 20:11:55.769 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:11:55.770 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:11:55.770 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:11:56.429 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：658 ms -------------
+2022-02-05 20:11:57.291 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:11:57.291 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:11:57.291 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:11:57.894 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:11:57.895 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:11:57.898 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：606 ms -------------
+2022-02-05 20:12:12.454 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:12:12.457 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:12:12.459 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:12:12.859 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：398 ms -------------
+2022-02-05 20:12:43.969 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:12:43.970 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:12:43.970 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:12:44.372 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 20:12:55.719 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:12:55.720 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:12:55.721 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:12:56.122 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 20:12:56.156 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:12:56.156 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:12:56.159 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:12:56.570 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:12:56.571 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:12:56.573 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：414 ms -------------
+2022-02-05 20:12:58.069 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:12:58.070 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:12:58.071 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:12:58.484 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：412 ms -------------
+2022-02-05 20:13:05.253 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:13:05.254 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:13:05.255 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:13:05.656 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 20:13:52.628 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:13:52.628 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:13:52.629 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:13:53.034 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：405 ms -------------
+2022-02-05 20:14:12.501 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:12.502 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:12.503 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:12.904 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 20:14:18.823 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:18.824 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:18.824 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:19.482 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：658 ms -------------
+2022-02-05 20:14:20.808 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:20.808 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:20.808 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:21.223 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：402 ms -------------
+2022-02-05 20:14:21.235 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:21.235 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:14:21.235 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:21.711 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:21.712 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:21.712 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:21.839 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:14:21.840 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:14:21.842 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：607 ms -------------
+2022-02-05 20:14:21.917 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：205 ms -------------
+2022-02-05 20:14:36.343 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:36.344 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:36.344 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:36.753 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：408 ms -------------
+2022-02-05 20:14:43.896 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:14:43.897 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:14:43.898 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:14:44.306 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：408 ms -------------
+2022-02-05 20:15:03.477 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:15:03.477 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:15:03.478 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:15:03.888 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：410 ms -------------
+2022-02-05 20:15:03.902 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:15:03.903 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-02-05 20:15:03.903 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:15:03.952 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:15:03.953 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:15:03.953 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:15:04.305 INFO  com.jiacheng.wiki.service.EbookService            :47   [32m                  [0;39m 总行数：5
+2022-02-05 20:15:04.307 INFO  com.jiacheng.wiki.service.EbookService            :48   [32m                  [0;39m 总页数：1
+2022-02-05 20:15:04.309 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：406 ms -------------
+2022-02-05 20:15:04.345 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：392 ms -------------
+2022-02-05 20:15:04.944 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:15:04.944 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:15:04.944 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:15:05.352 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：407 ms -------------
+2022-02-05 20:15:14.656 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:15:14.657 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:15:14.657 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:15:15.249 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：591 ms -------------
+2022-02-05 20:16:03.962 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:16:03.965 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:16:03.965 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:16:04.378 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：412 ms -------------
+2022-02-05 20:17:31.894 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:17:31.898 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:17:31.901 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:17:32.335 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：434 ms -------------
+2022-02-05 20:20:34.588 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:20:34.593 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:20:34.595 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:20:35.052 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：453 ms -------------
+2022-02-05 20:22:26.603 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:22:26.603 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:22:26.604 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:22:27.004 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：398 ms -------------
+2022-02-05 20:22:35.554 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:22:35.554 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:22:35.555 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:22:35.957 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：401 ms -------------
+2022-02-05 20:22:37.284 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:22:37.285 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:22:37.286 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:22:37.880 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：594 ms -------------
+2022-02-05 20:23:17.886 INFO  com.jiacheng.wiki.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-02-05 20:23:17.891 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2022-02-05 20:23:17.892 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-02-05 20:23:18.378 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：486 ms -------------
