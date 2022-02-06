@@ -492,3 +492,6 @@ Caused by: java.io.IOException: Broken pipe
 2022-02-05 02:51:27.216 INFO  com.jiacheng.wiki.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
 2022-02-05 02:51:27.216 INFO  com.jiacheng.wiki.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
 2022-02-05 02:51:27.220 INFO  com.jiacheng.wiki.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：4 ms -------------
+2022-02-05 03:12:53.921 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-05 03:12:53.942 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-02-05 03:12:53.966 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
