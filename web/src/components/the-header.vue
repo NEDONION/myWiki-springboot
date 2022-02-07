@@ -4,7 +4,7 @@
       <a-menu
         theme="dark"
         mode="horizontal"
-        :style="{ lineHeight: '64px' }"
+        :style="{ lineHeight: '64px', fontSize: '16px'}"
       >
         <a-menu-item key="/">
           <router-link to="/">Homapage</router-link>
