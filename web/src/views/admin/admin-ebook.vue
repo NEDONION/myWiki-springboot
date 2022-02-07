@@ -6,17 +6,17 @@
       <p>
         <a-form layout="inline" :model="param">
           <a-form-item>
-            <a-input v-model:value="param.name" placeholder="名称">
+            <a-input v-model:value="param.name" placeholder="Name">
             </a-input>
           </a-form-item>
           <a-form-item>
             <a-button type="primary" @click="handleQuery({page: 1, size: pagination.pageSize})">
-              查询
+              Search
             </a-button>
           </a-form-item>
           <a-form-item>
             <a-button type="primary" @click="add()">
-              新增
+              Add
             </a-button>
           </a-form-item>
         </a-form>
@@ -43,7 +43,7 @@
               </a-button>
             </router-link>
             <a-button type="primary" @click="edit(record)">
-              编辑
+              Edit
             </a-button>
             <a-popconfirm
               title="删除后不可恢复，确认删除?"
@@ -52,7 +52,7 @@
               @confirm="handleDelete(record.id)"
             >
               <a-button type="danger">
-                删除
+                Delete
               </a-button>
             </a-popconfirm>
           </a-space>
@@ -62,26 +62,26 @@
   </a-layout>
 
   <a-modal
-    title="电子书表单"
+    title="Ebook issue"
     v-model:visible="modalVisible"
     :confirm-loading="modalLoading"
     @ok="handleModalOk"
   >
     <a-form :model="ebook" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
-      <a-form-item label="封面">
+      <a-form-item label="Icon">
         <a-input v-model:value="ebook.cover" />
       </a-form-item>
-      <a-form-item label="名称">
+      <a-form-item label="Name">
         <a-input v-model:value="ebook.name" />
       </a-form-item>
-      <a-form-item label="分类">
+      <a-form-item label="Category">
         <a-cascader
           v-model:value="categoryIds"
           :field-names="{ label: 'name', value: 'id', children: 'children' }"
           :options="level1"
         />
       </a-form-item>
-      <a-form-item label="描述">
+      <a-form-item label="Description">
         <a-input v-model:value="ebook.description" type="textarea" />
       </a-form-item>
     </a-form>
@@ -253,11 +253,11 @@
           const data = response.data;
           if (data.success) {
             categorys = data.content;
-            console.log("原始数组：", categorys);
+            console.log("原始数组: ", categorys);
 
             level1.value = [];
             level1.value = Tool.array2Tree(categorys, 0);
-            console.log("树形结构：", level1.value);
+            console.log("树形结构: ", level1.value);
 
             // 加载完分类后，再加载电子书，否则如果分类树加载很慢，则电子书渲染会报错
             handleQuery({

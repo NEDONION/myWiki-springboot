@@ -1,5 +1,5 @@
 <template>
-  <a-layout>
+  <a-layout id="components-layout-demo-top-side-2">
     <Header />
       <router-view />
     <Footer />
@@ -20,5 +20,3 @@ export default {
   }
 }
 </script>
-
-

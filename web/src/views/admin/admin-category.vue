@@ -6,12 +6,12 @@
       <p>
         <a-form layout="inline" :model="param">
           <a-form-item>
-            <a-button type="primary" shape="round" @click="handleQuery()">
+            <a-button type="primary" @click="handleQuery()">
               Search
             </a-button>
           </a-form-item>
           <a-form-item>
-            <a-button type="primary" shape="round" @click="add()">
+            <a-button type="primary" @click="add()">
               Add
             </a-button>
           </a-form-item>
@@ -39,7 +39,7 @@
         </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
-            <a-button type="primary" shape="round" @click="edit(record)">
+            <a-button type="primary" @click="edit(record)">
               Edit
             </a-button>
             <a-popconfirm
@@ -48,7 +48,7 @@
               cancel-text="Cancel"
               @confirm="handleDelete(record.id)"
             >
-              <a-button type="danger" shape="round">
+              <a-button type="danger">
                 Delete
               </a-button>
             </a-popconfirm>
@@ -59,16 +59,16 @@
   </a-layout>
 
   <a-modal
-    title="分类表单"
+    title="Category issue"
     v-model:visible="modalVisible"
     :confirm-loading="modalLoading"
     @ok="handleModalOk"
   >
     <a-form :model="category" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
-      <a-form-item label="名称">
+      <a-form-item label="Name">
         <a-input v-model:value="category.name" />
       </a-form-item>
-      <a-form-item label="父分类">
+      <a-form-item label="Parent category">
         <a-select
           v-model:value="category.parent"
           ref="select"
@@ -81,7 +81,7 @@
           </a-select-option>
         </a-select>
       </a-form-item>
-      <a-form-item label="顺序">
+      <a-form-item label="Order">
         <a-input v-model:value="category.sort" />
       </a-form-item>
     </a-form>
@@ -93,6 +93,7 @@
   import axios from 'axios';
   import { message } from 'ant-design-vue';
   import {Tool} from "@/util/tool";
+
 
   export default defineComponent({
     name: 'AdminCategory',
